@@ -49,5 +49,6 @@ func (c *Client) ListLocations(pageURL *string) (RespShallowLocations, error) {
 		return RespShallowLocations{}, err
 	}
 
+	c.cache.Add(url, dat)
 	return locationsResp, nil
 }
