@@ -10,11 +10,11 @@ Catch and inspect Pokémon
 In-memory caching to reduce redundant API calls
 
 ## Commands
-> help - Displays all commands
-> map - Get next page of locations 
-> mapb - Get previous page of locations
-> explore <location> - List of all pokemon in current location
-> catch <pokemon> - Try to catch specified pokemon
-> inspect <pokemon> - Inspect specified pokemon
-> pokedex - List of caught pokemon
-> exit - Exit the podedex
+help - Displays all commands
+map - Get next page of locations 
+mapb - Get previous page of locations
+explore <location> - List of all pokemon in current location
+catch <pokemon> - Try to catch specified pokemon
+inspect <pokemon> - Inspect specified pokemon
+pokedex - List of caught pokemon
+exit - Exit the podedex
